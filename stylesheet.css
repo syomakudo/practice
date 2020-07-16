@@ -1,1 +1,26 @@
+body {
+  font-family: "Avenir Next";
+}
+
+li{
+  list-style: none;
+}
+
+
+.header{
+  height:90px;
+  background-color:rgb(255,255,128);
+}
+.header-left{
+  font-family: 'Yu Gothic';
+  color:#000;
+}
+.header-right{
+  float:left;
+  display: inline-block;
+  line-height: 30px;
+  color:rgba(255, 0, 0, 0.5);
+}
+
+
 
