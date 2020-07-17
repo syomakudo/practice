@@ -1,26 +1,46 @@
 body {
+  margin: 0;
   font-family: "Avenir Next";
 }
-
+a{
+  text-decoration:none;
+}
 li{
   list-style: none;
 }
 
 
 .header{
-  height:90px;
+  width:100%;
+  height:100px;
   background-color:rgb(255,255,128);
+  background-size:cover;
+    padding:20px;
+    clear: both;
 }
 .header-left{
   font-family: 'Yu Gothic';
   color:#000;
-}
-.header-right{
   float:left;
-  display: inline-block;
-  line-height: 30px;
-  color:rgba(255, 0, 0, 0.5);
+}
+.header-left p{
+  font-size:50px;
 }
 
+.block{
+  float:left;
+  padding-right:30px;
+  background-color:rgba(255, 255, 128, 0.3);
+}
 
-
+.top-wrapper{
+  text-align: center;
+  background-image: url(https://i.gzn.jp/img/2012/09/07/tamago-gohan/P1110499_m.jpg);
+  background-size:cover;
+  height:400px;
+}
+.top-wrapper h1{
+  font-size:60px;
+  float:left;
+  padding-right:30px;
+}
